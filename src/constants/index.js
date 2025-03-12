@@ -5,7 +5,8 @@ import portfolio from "../assets/projects/portfolio.png";
 import property from "../assets/projects/property.png";
 import club from "../assets/projects/club.png";
 import crud  from "../assets/projects/crud.png";
-import project4 from "../assets/projects/project-4.jpg";
+// import project4 from "../assets/projects/project-4.jpg";
+import socially from "../assets/projects/socially.png"
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 export const HERO_CONTENT = `I'm a front-end developer that is passionate about creating online applications that are both responsive and easy to use. with a strong foundation in JavaScript, HTML, and CSS as well as practical React experience. I also adore creating efficient and user-friendly internet interfaces, and I'm devoted and adaptable. I've worked with technologies like React, HTML, CSS, and JavaScript for a year now, gaining experience from educational projects. My fascination in front-end programming began as a simple curiosity about how websites are created, and it has grown into a fulfilling professional path where I like always learning new skills and taking on new challenges.`;
@@ -14,33 +15,41 @@ export const ABOUT_TEXT = `I'm a front-end developer that is committed and flexi
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - 2025",
+    role: "Student Tutor",
+    company: "BRAC University.",
+    description: `Student Tutor at Department of Mathematics and Natural Sciences (MNS)`,
+    // technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Teaching"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2023 - Present",
+  //   role: "Senior Full Stack Developer",
+  //   company: "Google Inc.",
+  //   description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+  //   technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+  // },
+  // {
+  //   year: "2022 - 2023",
+  //   role: "Frontend Developer",
+  //   company: "Adobe",
+  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+  // },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
@@ -71,6 +80,13 @@ export const PROJECTS = [
     description:
       "Basic CRUD project using MERN stack.",
     technologies: ["HTML",  "React", "Express","Node js","Tailwind" ,"Mongo DB"],
+  },
+  {
+    title: "Simple landing page",
+    image: socially,
+    description:
+      "A social media-themed landing page built with HTML and CSS",
+    technologies: ["HTML", "CSS"],
   },
   // {
   //   title: "Blogging Platform",

@@ -4,6 +4,9 @@ import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
 import { DiMysql } from "react-icons/di";
+import { SiPowerbi } from "react-icons/si";
+import { FaFileExcel } from "react-icons/fa";
+import { SiCanva } from "react-icons/si";
 import {animate, motion} from "framer-motion";
 
 const iconVariants = (duration ) => ({
@@ -78,7 +81,29 @@ function Technologies() {
          className="rounded-2xl border-4 border-neutral-800 p-4">
             < DiMysql className="text-7xl text-blue-400"/>
         </motion.div>
+        <motion.div
+         variants={iconVariants(3)} 
+         initial="initial"
+         animate="animate"
+         className="rounded-2xl border-4 border-neutral-800 p-4">
+            < SiPowerbi className="text-7xl text-yellow-400"/>
+        </motion.div>
+        <motion.div
+         variants={iconVariants(3)} 
+         initial="initial"
+         animate="animate"
+         className="rounded-2xl border-4 border-neutral-800 p-4">
+            < FaFileExcel className="text-7xl text-green-500"/>
+        </motion.div>
+        <motion.div
+         variants={iconVariants(3)} 
+         initial="initial"
+         animate="animate"
+         className="rounded-2xl border-4 border-neutral-800 p-4">
+            < SiCanva className="text-7xl text-[#5a3be3]"/>
+        </motion.div>
       </motion.div>
+      
     </div>
   )
 }
