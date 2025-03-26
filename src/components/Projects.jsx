@@ -32,8 +32,41 @@ function Projects() {
             {project.technologies .map((tech , index)=>(
                 <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
                   {tech}  
+                  
                 </span>
             ))}
+             {/* Display appropriate links based on availability */}
+      <div className="mt-4">
+        {project.frontendLink && project.backendLink ? (
+          <>
+            <a 
+              href={project.frontendLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mr-4 text-blue-500 underline hover:text-blue-700"
+            >
+              Frontend 
+            </a>
+            <a 
+              href={project.backendLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500 underline hover:text-blue-700"
+            >
+              Backend
+            </a>
+          </>
+        ) : project.projectLink ? (
+          <a 
+            href={project.projectLink} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500 underline hover:text-blue-700"
+          >
+            View Project
+          </a>
+        ) : null}
+      </div>
             </motion.div>
         </div>
       ))}

@@ -21,6 +21,7 @@ export const EXPERIENCES = [
     description: `Student Tutor at Department of Mathematics and Natural Sciences (MNS)`,
     // technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
     technologies: ["Teaching"],
+    
   },
   // {
   //   year: "2023 - Present",
@@ -59,6 +60,8 @@ export const PROJECTS = [
     description:
       "Developed a Property Management System project, serving as a practical implementation of database design. Utilized Django REST API for the backend, ensuring efficient database management, and integrated React for the frontend, enhancing user interaction and experience.",
     technologies: ["HTML", "CSS", "Django","React","Bootstrap", "Mysql"],
+    frontendLink: "https://github.com/Sajida-18/471_Frontend",
+    backendLink: "https://github.com/ZabirRamiz/471_Backend"
   },
   {
     title: "Club Management system",
@@ -66,6 +69,7 @@ export const PROJECTS = [
     description:
       "Developed a University Club Management system project Using MERN Stack.",
     technologies: ["HTML",  "React", "Express","Node js","Tailwind" ,"Mongo DB"],
+    projectLink: "https://github.com/ZabirRamiz/Club-Mangement-System" ,
   },
   {
     title: "Portfolio Website",
@@ -73,6 +77,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
+    projectLink: "https://github.com/Sajida-18/React-Portfolio-Sajida" ,
   },
   {
     title: "Basic CRUD",
@@ -80,6 +85,7 @@ export const PROJECTS = [
     description:
       "Basic CRUD project using MERN stack.",
     technologies: ["HTML",  "React", "Express","Node js","Tailwind" ,"Mongo DB"],
+    projectLink: "https://github.com/Sajida-18/BASIC-CRUD-",
   },
   {
     title: "Simple landing page",
@@ -87,6 +93,7 @@ export const PROJECTS = [
     description:
       "A social media-themed landing page built with HTML and CSS",
     technologies: ["HTML", "CSS"],
+    projectLink: "https://github.com/Sajida-18/Simple-Website-" ,
   },
   // {
   //   title: "Blogging Platform",
