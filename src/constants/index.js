@@ -6,10 +6,13 @@ import property from "../assets/projects/property.png";
 import club from "../assets/projects/club.png";
 import crud  from "../assets/projects/crud.png";
 // import project4 from "../assets/projects/project-4.jpg";
-import socially from "../assets/projects/socially.png"
+import socially from "../assets/projects/socially.png";
+import budget_app from "../assets/projects/budget_app.png";
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-export const HERO_CONTENT = `I'm a front-end developer that is passionate about creating online applications that are both responsive and easy to use. with a strong foundation in JavaScript, HTML, and CSS as well as practical React experience. I also adore creating efficient and user-friendly internet interfaces, and I'm devoted and adaptable. I've worked with technologies like React, HTML, CSS, and JavaScript for a year now, gaining experience from educational projects. My fascination in front-end programming began as a simple curiosity about how websites are created, and it has grown into a fulfilling professional path where I like always learning new skills and taking on new challenges.`;
+//export const HERO_CONTENT = `I'm a front-end developer that is passionate about creating online applications that are both responsive and easy to use. with a strong foundation in JavaScript, HTML, and CSS as well as practical React experience. I also adore creating efficient and user-friendly internet interfaces, and I'm devoted and adaptable. I've worked with technologies like React, HTML, CSS, and JavaScript for a year now, gaining experience from educational projects. My fascination in front-end programming began as a simple curiosity about how websites are created, and it has grown into a fulfilling professional path where I like always learning new skills and taking on new challenges.`;
+export const HERO_CONTENT = `I'm a recent Computer Science graduate from BRAC University with a strong interest in front-end development. I'm passionate about creating responsive and user-friendly web applications. I have a good understanding in JavaScript, HTML, and CSS, along with hands-on experience in React gained through academic projects over the past year. I enjoy building clean and efficient user interfaces and am always eager to learn and grow in this field. My journey into front-end development began with a simple curiosity about how websites are built, which has now evolved into a fulfilling pursuit where I constantly challenge myself and embrace new technologies.
+`;
 // export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 export const ABOUT_TEXT = `I'm a front-end developer that is committed and flexible, and I have a love for making effective and user-friendly online interfaces. I have a year of experience working with technologies like React, HTML, CSS, and JavaScript, which I got from academic projects. My interest in front-end programming started as a curiosity about how websites are made, and it has developed into a rewarding career path where I welcome taking on new challenges and learning new things all the time.`;
 
@@ -78,6 +81,14 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
     projectLink: "https://github.com/Sajida-18/React-Portfolio-Sajida" ,
+  },
+  {
+    title: "Daily Budget Calculation",
+    image: budget_app,
+    description:
+      "A full-stack budget management web application built with React, Express.js, and MySQL (via XAMPP). Users can: Set a budget, Add expense items (name, price, quantity), View total spent and remaining budget, Track purchase history (Expense Summary).",
+    technologies: ["React","Express","Node js","MySQL", "Tailwind","XAMPP"],
+    projectLink: "https://github.com/Sajida-18/Daily-Budget-Calculation-App" ,
   },
   {
     title: "Basic CRUD",
