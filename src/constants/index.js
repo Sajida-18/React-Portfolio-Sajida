@@ -8,6 +8,7 @@ import crud  from "../assets/projects/crud.png";
 // import project4 from "../assets/projects/project-4.jpg";
 import socially from "../assets/projects/socially.png";
 import budget_app from "../assets/projects/budget_app.png";
+import tower_defence from "../assets/projects/tower_defence.png";
 
 // export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 //export const HERO_CONTENT = `I'm a front-end developer that is passionate about creating online applications that are both responsive and easy to use. with a strong foundation in JavaScript, HTML, and CSS as well as practical React experience. I also adore creating efficient and user-friendly internet interfaces, and I'm devoted and adaptable. I've worked with technologies like React, HTML, CSS, and JavaScript for a year now, gaining experience from educational projects. My fascination in front-end programming began as a simple curiosity about how websites are created, and it has grown into a fulfilling professional path where I like always learning new skills and taking on new challenges.`;
@@ -97,6 +98,14 @@ export const PROJECTS = [
       "Basic CRUD project using MERN stack.",
     technologies: ["HTML",  "React", "Express","Node js","Tailwind" ,"Mongo DB"],
     projectLink: "https://github.com/Sajida-18/BASIC-CRUD-",
+  },
+  {
+    title: "Tower Defence Game",
+    image: tower_defence,
+    description:
+      "Computer graphics project implemented with midpoint line and circle drawing algo using python.",
+    technologies: ["python"],
+    projectLink: "https://github.com/Sajida-18/Tower_Defence-CSE423_project" ,
   },
   {
     title: "Simple landing page",
