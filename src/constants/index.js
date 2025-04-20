@@ -104,7 +104,7 @@ export const PROJECTS = [
     image: tower_defence,
     description:
       "Computer graphics project implemented with midpoint line and circle drawing algo using python.",
-    technologies: ["python"],
+    technologies: ["Python"],
     projectLink: "https://github.com/Sajida-18/Tower_Defence-CSE423_project" ,
   },
   {
