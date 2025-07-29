@@ -16,7 +16,15 @@ export const ABOUT_TEXT = `I'm a front-end developer that is committed and flexi
 
 export const EXPERIENCES = [
   {
-    year: "2024 - 2025",
+    year: "June 2025 - Present",
+    role: "VR Developer Intern",
+    company: "Bakoony LTD.",
+    description: `VR Developer at Bakoony LTD. specializing in creating immersive virtual reality experiences.`,
+    // technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Unreal Engine", "C++", "VR Development"],
+  },
+  {
+    year: "January 2024 - January 2025",
     role: "Student Tutor",
     company: "BRAC University.",
     description: `Student Tutor at Department of Mathematics and Natural Sciences (MNS)`,

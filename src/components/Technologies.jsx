@@ -8,6 +8,7 @@ import { SiPowerbi } from "react-icons/si";
 import { FaFileExcel } from "react-icons/fa";
 import { SiCanva } from "react-icons/si";
 import {animate, motion} from "framer-motion";
+import { SiUnrealengine } from "react-icons/si";
 
 const iconVariants = (duration ) => ({
   initial: {y: -10},
@@ -102,7 +103,15 @@ function Technologies() {
          className="rounded-2xl border-4 border-neutral-800 p-4">
             < SiCanva className="text-7xl text-[#5a3be3]"/>
         </motion.div>
+        <motion.div
+         variants={iconVariants(3)} 
+         initial="initial"
+         animate="animate"
+         className="rounded-2xl border-4 border-neutral-800 p-4">
+            < SiUnrealengine className="text-white text-7xl"/>
+        </motion.div>
       </motion.div>
+      
       
     </div>
   )
